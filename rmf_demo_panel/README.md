@@ -79,3 +79,7 @@ The dashboard config file is located here: `rmf_dashboard_resources/$WORLD/dashb
 - server ip is configurable via `WEB_SERVER_IP_ADDRESS` in the `dashboard.launch.xml`
 - The `api_server` outputs and stores a summarized log: `web_server.log`.
 - cancel task will not be working. A fully functional cancel will be introduced in a future PR.
+
+## Quality Declaration
+
+This package claims to be in the **Quality Level 4** category, see the [Quality Declaration](./QUALITY_DECLARATION.md) for more details.
