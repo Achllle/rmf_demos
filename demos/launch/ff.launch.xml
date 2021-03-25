@@ -1,0 +1,21 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <arg name="use_ignition" default="0"/>
+  <arg name="gazebo_version" default="11"/>
+
+  <!-- Common launch -->
+  <include file="$(find-pkg-share demos)/common.launch.xml">
+    <arg name="use_sim_time" value="false"/>
+    <arg name="viz_config_file" value ="$(find-pkg-share demos)/include/office/office.rviz"/>
+    <arg name="config_file" value="$(find-pkg-share rmf_demo_maps)/ff/ff.building.yaml"/>
+    <arg name="dashboard_config_file" value="$(find-pkg-share rmf_demos_dashboard_resources)/office/dashboard_config.json"/>
+  </include>
+
+  <include file="$(find-pkg-share demos)/include/adapters/fetch_adapter.launch.xml">
+    <arg name="fleet_name" value="fetch"/>
+    <arg name="use_sim_time" value="false"/>
+    <arg name="nav_graph_file" value="$(find-pkg-share rmf_demo_maps)/maps/ff/nav_graphs/0.yaml" />
+  </include>
+
+</launch>

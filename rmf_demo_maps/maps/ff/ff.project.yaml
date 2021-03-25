@@ -1,0 +1,6 @@
+building:
+  filename: ff.building.yaml
+name: ff
+traffic_maps:
+  {}
+version: 1
