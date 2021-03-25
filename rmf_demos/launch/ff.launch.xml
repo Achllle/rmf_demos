@@ -7,9 +7,10 @@
   <!-- Common launch -->
   <include file="$(find-pkg-share demos)/common.launch.xml">
     <arg name="use_sim_time" value="false"/>
-    <arg name="viz_config_file" value ="$(find-pkg-share demos)/include/office/office.rviz"/>
+    <arg name="viz_config_file" value ="$(find-pkg-share demos)/include/ff/ff.rviz"/>
     <arg name="config_file" value="$(find-pkg-share rmf_demo_maps)/ff/ff.building.yaml"/>
     <arg name="dashboard_config_file" value="$(find-pkg-share rmf_demos_dashboard_resources)/office/dashboard_config.json"/>
+    <arg name="level_name" value="level_name"/>
   </include>
 
   <include file="$(find-pkg-share demos)/include/adapters/fetch_adapter.launch.xml">

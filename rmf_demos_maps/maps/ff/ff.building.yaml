@@ -1,5 +1,5 @@
 levels:
-  L1:
+  level_name:
     drawing:
       filename: ff_floorplan.png
     elevation: 0
