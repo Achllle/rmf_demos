@@ -11,7 +11,7 @@
 
       <!-- The name and control type of the fleet -->
       <arg name="fleet_name" value="$(var fleet_name)"/>
-      <arg name="control_type" value="read_only"/>
+      <arg name="control_type" value="full_control"/>
 
       <!-- The graph that this fleet should use for navigation -->
       <arg name="nav_graph_file" value="$(var nav_graph_file)" />
