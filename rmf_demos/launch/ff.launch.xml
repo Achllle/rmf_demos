@@ -5,18 +5,18 @@
   <arg name="gazebo_version" default="11"/>
 
   <!-- Common launch -->
-  <include file="$(find-pkg-share demos)/common.launch.xml">
+  <include file="$(find-pkg-share rmf_demos)/common.launch.xml">
     <arg name="use_sim_time" value="false"/>
-    <arg name="viz_config_file" value ="$(find-pkg-share demos)/include/ff/ff.rviz"/>
-    <arg name="config_file" value="$(find-pkg-share rmf_demo_maps)/ff/ff.building.yaml"/>
+    <arg name="viz_config_file" value ="$(find-pkg-share rmf_demos)/include/ff/ff.rviz"/>
+    <arg name="config_file" value="$(find-pkg-share rmf_demos_maps)/ff/ff.building.yaml"/>
     <arg name="dashboard_config_file" value="$(find-pkg-share rmf_demos_dashboard_resources)/office/dashboard_config.json"/>
     <arg name="level_name" value="level_name"/>
   </include>
 
-  <include file="$(find-pkg-share demos)/include/adapters/fetch_adapter.launch.xml">
+  <include file="$(find-pkg-share rmf_demos)/include/adapters/fetch_adapter.launch.xml">
     <arg name="fleet_name" value="fetch"/>
     <arg name="use_sim_time" value="false"/>
-    <arg name="nav_graph_file" value="$(find-pkg-share rmf_demo_maps)/maps/ff/nav_graphs/0.yaml" />
+    <arg name="nav_graph_file" value="$(find-pkg-share rmf_demos_maps)/maps/ff/nav_graphs/0.yaml" />
   </include>
 
 </launch>
