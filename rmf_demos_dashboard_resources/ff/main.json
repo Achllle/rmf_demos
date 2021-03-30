@@ -1,0 +1,1 @@
+{"dispensers": {"coke_dispenser": {"icons": {"coke_dispenser": ""}, "location": {"x": 16.85, "y": -4.8, "yaw": 0, "level_name": "level_name"}}}, "robots": {"fetch": {"icons": {"fetch": "/robots/fetch/fetch.png"}, "places": {"fetch45_dock": [], "fetch23_dock": [], "fetch26_dock": [], "ur_dropoff": [], "conveyor_pickup": []}}}}

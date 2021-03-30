@@ -1,0 +1,15 @@
+{
+  "world_name" : "ff World",
+  "valid_task": ["Loop"],
+  "task": {
+    "Loop": {
+      "places": [
+        "fetch45_dock",
+        "fetch26_dock",
+        "conveyor_pickup",
+        "ur_dropoff",
+        "fetch23_dock"
+      ]
+    }
+  }
+}

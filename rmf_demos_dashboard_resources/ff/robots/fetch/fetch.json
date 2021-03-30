@@ -1,0 +1,14 @@
+{
+    "fetch":{
+        "icons":{
+            "fetch": "/robots/fetch/fetch.png"
+        },
+        "places":{
+            "fetch45_dock":[],
+            "fetch23_dock":[],
+            "fetch26_dock":[],
+            "ur_dropoff":[],
+            "conveyor_pickup":[]
+        }
+    }
+}
