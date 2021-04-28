@@ -18,11 +18,11 @@
     <arg name="use_sim_time" value="false"/>
     <arg name="nav_graph_file" value="$(find-pkg-share rmf_demos_maps)/maps/ff/nav_graphs/0.yaml" />
   </include>
-
+<!--
   <include file="$(find-pkg-share rmf_demos)/include/adapters/otto_adapter.launch.xml">
     <arg name="fleet_name" value="otto"/>
     <arg name="use_sim_time" value="false"/>
     <arg name="nav_graph_file" value="$(find-pkg-share rmf_demos_maps)/maps/ff/nav_graphs/0.yaml" />
   </include>
-
+-->
 </launch>
