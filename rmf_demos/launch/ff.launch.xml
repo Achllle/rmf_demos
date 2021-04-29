@@ -10,7 +10,7 @@
     <arg name="viz_config_file" value ="$(find-pkg-share rmf_demos)/include/ff/ff.rviz"/>
     <arg name="config_file" value="$(find-pkg-share rmf_demos_maps)/ff/ff.building.yaml"/>
     <arg name="dashboard_config_file" value="$(find-pkg-share rmf_demos_dashboard_resources)/office/dashboard_config.json"/>
-    <arg name="level_name" value="level_name"/>
+    <arg name="initial_map" value="level_name"/>
   </include>
 
   <include file="$(find-pkg-share rmf_demos)/include/adapters/fetch_adapter.launch.xml">
